@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* header background styles */
+/* ------------------header section styles------------------ */
 .header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -15,7 +15,7 @@
     color: #FD6E0A;
 }
 
-/* header and navigation styles */
+/* ----------------header section navigation-var styles------------------ */
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ nav li {
     margin-left: 51px;
 }
 
-/* banner styles */
+/* --------------banner styles----------------- */
 .banner {
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ nav li {
 
 }
 
-/* button styles */
+/* ------------button styles--------------- */
 .btn-design {
     color: #FFFFFF;
     background-color: #FD6E0A;
@@ -102,7 +102,7 @@ nav li {
     border-radius: 5px;
 }
 
-/* about me section styles */
+/* -----------------about me section styles--------------------- */
 .about-me {
     background-color: #FFF8F3;
     width: 1140px;
@@ -126,7 +126,7 @@ nav li {
     margin: 0px 157px 0px 156px;
 }
 
-/* info container style */
+/* -------------------info container style------------------- */
 
 .about-info-container {
     display: flex;
@@ -146,7 +146,7 @@ nav li {
     font-weight: 700;
 }
 
-/* what i do styles */
+/* --------------------what i do styles------------------- */
 
 .what-section {
     text-align: center;
@@ -166,7 +166,7 @@ nav li {
     font-size: 18px;
 }
 
-/* skill section styles*/
+/* ---------------skill section styles----------------*/
 
 .skill-section {
     display: flex;
@@ -202,7 +202,7 @@ nav li {
 
 }
 
-/* resume section styles */
+/* ------------------resume section styles------------- */
 
 .resume-section-title {
     color: #181818;
@@ -258,7 +258,7 @@ hr {
     margin-bottom: 113px;
 }
 
-/* footer section styles */
+/* -----footer section styles-------- */
 .footer-section {
     background-color: #FFF8F3;
     display: flex;
