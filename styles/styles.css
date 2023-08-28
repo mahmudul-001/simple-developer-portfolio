@@ -369,7 +369,7 @@ input {
    
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 1000px) {
     .what-section,
     .resume-contain, 
     .footer-contain, 
