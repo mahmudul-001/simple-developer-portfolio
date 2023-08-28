@@ -315,3 +315,101 @@ input {
     border-radius: 5px;
     margin: 24px 0px 130px 0px;
 }
+
+/* responsive styles  */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .what-section, .skill-section, 
+    .resume-contain, .footer-contain, 
+    .footer-form,
+    .about-info-container,
+    .about-description,
+    .banner
+    {
+        padding: 20px;
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner,.btn-download{
+        margin: 0;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .about-me{
+        width: 100%;
+        height: 100%;
+    }
+    .banner, 
+    .skill-section, 
+    .resume-contain, 
+    .footer-section, 
+    .about-info-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        gap: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-form input, textarea{
+        padding: 0px 0px 0px 10px;
+    }
+   
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .what-section,
+    .resume-contain, 
+    .footer-contain, 
+    .footer-form, 
+    .about-info-container,
+    .about-description,
+    .banner
+    {
+        padding: 20px;
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner,.btn-download{
+        margin: 0;
+    }
+    .banner img{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        gap: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-me{
+        width: 100%;
+        height: 100%;
+    }
+    .skill-section, .resume-contain, 
+    .footer-section, .about-info-container, .banner{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-form input, textarea{
+        padding: 0px 0px 0px 10px;
+    }   
+}
